@@ -1,0 +1,24 @@
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  @apply flex justify-center items-center
+}
+
+.box {
+  @apply bg-slate-500 w-[400px] h-[200px] text-center rounded-lg p-8
+}
+h2{
+  font-size: 30px;
+  @apply uppercase font-semibold text-white 
+}
+.box div{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+.result{
+ color: aliceblue;
+}
